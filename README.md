@@ -61,9 +61,9 @@ core]
 Команда git push origin master отправляет изменнеия во все три репозитория <br>
 Команда git push rbgitlab master отправляет изменения только в выбранную ветку <br>
 
-reference urls
+reference urls<br>
 <a href="https://gist.github.com/rvl/c3f156e117e22a25f242">git add remote</a><br>
-<a href="http://caseyscarborough.com/blog/2013/08/25/pushing-to-multiple-remotes-using-git/">git confige</a><br>
+<a href="http://caseyscarborough.com/blog/2013/08/25/pushing-to-multiple-remotes-using-git/">git config</a><br>
 
 
 </p>
