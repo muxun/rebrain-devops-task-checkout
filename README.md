@@ -166,6 +166,28 @@ reference links
 </details>
 
 
+<details>
+<summary> REBRAIN HW 6: git branch  </summary>
+<p>
+
+Ветвление в git позволяет изолировать различные версии кода  
+Также позволяет в процессе командной работы делать фичи большой командой разработчиков  
+
+Создание веток 
+
+> git branch new_branch && git checkout new_branch  
+
+короткая запись   
+
+> git checkout -b new_branch
+
+reference links    
+[visual git tutorial](https://learngitbranching.js.org/)
+
+</p>
+</details>
+
+
 
 ### Authors
 
