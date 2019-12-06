@@ -1,9 +1,9 @@
   1 server {
   2   listen 80;
   3   server_name mysite.domain.com;
-  4   access_log /var/log/nginx/myvhost.log;
+  4   access_log /var/log/nginx/mysite.log;
   5   location / {
-  6     root /var/www/myvhost/;
+  6     root /var/www/mysite/;
   7     index index.htm index.html;
   8     autoindex on;
   9   }
