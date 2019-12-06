@@ -40,9 +40,11 @@
 Созданы одинаковые репозитории на github gitlab и bitbucket  
 В локальный git репозиторий добавлены удаленные репозиотрии
 
+
 >  git remote add rbgitlab  git@gitlab.rebrainme.com:muxund/rebrain-devops-task-checkout  
 >  git remote add rbgithub  git@github.com:muxun/rebrain-devops-task-checkout  
 >  git remote add rbbb      git@bitbucket.org:muxun/rebrain-devops-task-checkout  
+
 
 Добавлен push url для origin  
 
@@ -78,7 +80,7 @@
 
 ```
 
-Команда git push origin master отправляет изменнеия во все три репозитория  
+Команда git push origin master отправляет изменения во все три репозитория  
 Команда git push rbgitlab master отправляет изменения только в выбранную ветку  
 
 reference urls  
@@ -137,8 +139,38 @@ reference links
 </p>
 </details>
 
+<details>
+<summary> REBRAIN HW 5: .gitignore  </summary>
+<p>
+
+Для того, чтобы не тащить в репозиторий служебные файлы IDE, временные файлы, параметры окружения  
+можно воспользоваться файлом .gitignore 
+
+формат записи 
+
+```bash
+
+*.class
+
+tmp/
+
+.silent_ci_file
+
+```
+
+reference links  
+[теория](https://git-scm.com/book/ru/v2/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-Git-%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8C-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B9-%D0%B2-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B9)  
+[примеры от гитхаба ](https://github.com/github/gitignore)
+
+</p>
+</details>
+
+
+
 ### Authors
 
 **Дмитрий Михин** 
 * инфраструктурный инженер в [botkin.ai](http://botkin.ai) , [braingarden.ai](http://braingarden.ai)
 * автор технических текстов для [завтра облачно](https://mcs.mail.ru/blog/organizaciya-bekapa-postgresql-iz-kubernetes-v-s3-hranilishche)  
+
+
