@@ -187,6 +187,18 @@ reference links
 </p>
 </details>
 
+<details>
+<summary> REBRAIN HW 7: git merge  </summary>
+<p>
+Merge веток  
+
+> git checkout master && git merge new_branch   
+
+reference links    
+[git merge](https://learngitbranching.js.org/)
+
+</p>
+</details>
 
 
 ### Authors
